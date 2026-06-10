@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>  Smilecraft</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+    <!-- Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Lib Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+
+    <link rel="icon" href="img/smile/logo.png">
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner"></div>
+    </div>
+    <!-- Spinner End -->
+
+<!-- Topbar Start -->
+<div class="container-fluid bg-light ps-5 pe-0 d-none d-lg-block">
+    <div class="row gx-0">
+        <div class="col-md-6 text-center text-lg-start mb-2 mb-lg-0">
+            <div class="d-inline-flex align-items-center">
+                <small class="py-2"><i class="far fa-clock text-primary me-2"></i>Working Hours: Monday to Saturday : 08.00 am - 08.00 pm  Sunday - Closed </small>
+            </div>
+        </div>
+        <div class="col-md-6 text-center text-lg-end">
+            <div class="position-relative d-inline-flex align-items-center bg-primary text-white top-shape px-5">
+                <div class="me-3 pe-3 border-end py-2">
+                    
+                    <a href="mailto:enquiry.smilecraftedappally@gmail.com" class="text-white"><p class="m-0"><i class="fa fa-envelope-open me-2"></i>enquiry.smilecraftedappally@gmail.com</p></a>
+                </div>
+                <div class="py-2">
+                    <a href="tel:918606651185" class="text-white"><p class="m-0"><i class="fa fa-phone-alt me-2"></i>+91 860 665 1185</p></a>
+                 </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Topbar End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-dark px-5 py-3 py-lg-0">
+            <a href="index.html" class="navbar-brand p-0">
+                <h1 class="m-0 navhd">Smile<strong class="strong1">craft</strong></h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="about.html" class="nav-item nav-link">About</a>                   
+                   <div class="nav-item dropdown">
+                        <a href="service.html" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="endodontics.html" class="dropdown-item">Endodontics</a>
+                            <a href="orthodontics.html" class="dropdown-item">Orthodontics </a>
+                            <a href="paedodontics.html" class="dropdown-item">Pedodontics</a>
+                            <a href="periodontics.html" class="dropdown-item">Periodontics</a>
+                            <a href="maxillofacial.html" class="dropdown-item">Oral and Maxillofacial Surgery</a>
+                            <a href="prosthodontics.html" class="dropdown-item">Prosthodontics</a>
+                            <a href="cosmetic.html" class="dropdown-item">Cosmetic Dentistry</a>
+                            <a href="smile.html" class="dropdown-item">Smile Design </a>
+                        </div>
+                    </div> 
+                     <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+             </div>
+        </nav>
+
+        <div class="container-fluid bg-primary py-5 bg-header" style="margin-bottom: 90px;">
+            <div class="row py-5">
+                <div class="col-12 pt-lg-5 mt-lg-5 text-center">
+                    <h1 class="display-4 text-white animated zoomIn">About Us</h1>
+                    <a href="" class="h5 text-white">Home</a>
+                    <i class="far fa-circle text-white px-2"></i>
+                    <a href="" class="h5 text-white">About</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(9, 30, 62, .7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn bg-white btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-primary p-3" placeholder="Type search keyword">
+                        <button class="btn btn-primary px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+
+    <!-- About Start -->
+    <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row  ">
+                <div class="col-lg-7">
+                    <div class="section-title position-relative pb-3 mb-5">
+                        <h5 class="fw-bold text-primary text-uppercase">About Us</h5>
+                        <h1 class="mb-0">Welcome to Smilecraft -<br> A new era in Dental Care</h1>
+                    </div> 
+                    <h4 class="mb-0">A Dream Takes Shape in the Heart of Davangere</h4><br>
+                    <p class="mb-4"style="color: black;text-align: justify;">
+                        Smilecraft began not as a clinic, but as a vision—an idea that sparked in the hearts of
+                        two passionate dental students in the bustling town of Davangere. It was here, amidst
+                        the textbooks, exams, and long nights of dedication, that a dream was born: to
+                        redefine what it means to experience dental care. The date was January 28th, 2019,
+                        when this dream became a reality. From humble beginnings, Smilecraft opened its
+                        doors to a world of endless possibilities, marking the start of a new era in dentistry.</p>
+
+                    <p class=" "style="color: black;text-align: justify;">What began as a shared dream between two young dentists is now a mission of an
+                            Oral and Maxillofacial Surgeon and a Periodontist that drives every member of our
+                            team—a mission to dare, to challenge, and to transform the very face of dentistry.
+                            Every day since our founding, we have pushed the boundaries of what’s possible,
+                            growing by leaps and bounds, and proving that compassionate care and cutting-edge
+                            technology can coexist seamlessly.</p>
+                    
+                 </div>
+                <div class="col-lg-5" style="min-height: 500px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute w-100 h-100 rounded wow zoomIn" data-wow-delay="0.9s" src="img/smile/about1.jpg" style="object-fit: cover;">
+                    </div>
+                </div>
+
+                <p class="mb-4"style="color: black;text-align: justify;">What began as a shared dream between two young dentists is now a mission of an
+                    Oral and Maxillofacial Surgeon and a Periodontist that drives every member of our
+                    team—a mission to dare, to challenge, and to transform the very face of dentistry.
+                    Every day since our founding, we have pushed the boundaries of what’s possible,
+                    growing by leaps and bounds, and proving that compassionate care and cutting-edge
+                    technology can coexist seamlessly.</p>
+                    
+            </div>
+
+            <div class="section-title position-relative pb-2 mb-2">
+                <h5 class="fw-bold text-primary text-uppercase">Our Mission </h5>
+            </div>
+            <p style="color: black;"><b>Redefining Dental Care, One Smile at a Time</b></p>
+            <p class="mb-4" style="color: black;text-align: justify;"> Our mission is to create an entirely new experience of dental care, one that
+                inspires trust, confidence, and a sense of well-being from the moment you step
+                through our doors. We’re here to show that dental visits don’t have to be something
+                you dread—they can be something you look forward to. With a patient-first
+                philosophy, a commitment to excellence, and a relentless pursuit of innovation,
+                Smilecraft is on a journey to change the way people view dentistry.<br>
+                We believe that dentistry is about more than just treating teeth. It’s about the whole
+                person—creating an experience that combines the best in technology, compassion,
+                and care. We are here to make a difference in the lives of our patients, and to inspire
+                a new generation of dentists who are as passionate about the art of dentistry as we are..</p>
+
+                <div class="section-title position-relative pb-2 mb-2">
+                    <h5 class="fw-bold text-primary text-uppercase">Our Philosophy </h5>
+                </div>
+                <p style="color: black;"><b>Crafting Smiles with Passion</b></p>
+                <p class="mb-4" style="color: black;text-align: justify;">At Smilecraft, we don’t see our patients as charts or numbers; we see them as our
+                    guest with unique stories, goals, and dreams. Every treatment is a personalized
+                    journey, meticulously crafted to meet each patient’s needs. This philosophy is
+                    reflected in everything we do, from the way we design our treatment plans to the
+                    cutting-edge technology we use.<br>
+                    We believe in combining the precision of science with the beauty of art—making sure
+                    that every smile we craft is not only healthy but aesthetically perfect. To us, dentistry
+                    is not just a profession; it’s a calling. And we are called to inspire, to innovate, and
+                    to set a new standard for what dental care can be..</p>
+    
+                <div class="section-title position-relative pb-2 mb-2">
+                     <h5 class="fw-bold text-primary text-uppercase">Our Values: What We Stand For </h5>
+                    </div>
+
+                <p style="color: black; " class="FadeinLeft"><b>Innovation</b></p>
+                <p class="mb-4" style="color: black;text-align: justify;">
+                    We believe that innovation is the key to progress. Smilecraft is constantly exploring new technologies, techniques, and methods to enhance the patient experience and improve outcomes.</p>
+
+                <p style="color: black;"><b>Compassion</b></p>
+                <p class="mb-4" style="color: black;text-align: justify;">
+                    Every patient is treated with empathy, care, and respect. We understand that visiting the dentist can be a source of anxiety for many, and we are dedicated to creating a space where you feel heard, valued, and understood.</p> 
+                            
+                <p style="color: black;"><b>Integrity</b></p>
+                <p class="mb-4" style="color: black;text-align: justify;">
+                    Honesty and transparency are at the heart of what we do. We take the time to explain every step of the process, making sure that our patients are informed and empowered to make the best decisions for their oral health</p> 
+                    
+                <p style="color: black;"><b>Excellence</b></p>
+                <p class="mb-4" style="color: black;text-align: justify;">
+                    We don’t settle for “good enough.” At Smilecraft, we aim for the highest standards in every aspect of our practice, from the quality of our materials to the caliber of our staff.
+                        
+                <p style="color: black;"><b>Transparency</b></p>
+                <p class="mb-4" style="color: black;text-align: justify;">
+                    We believe in clear and open communication. From the initial consultation to the final treatment, we ensure that you are fully informed every step of the way. No surprises, just straightforward guidance and complete clarity on your dental care.
+                                
+                <p style="color: black;"><b>Trust</b></p>
+                <p class="mb-4" style="color: black;text-align: justify;">
+                    Building trust is at the heart of our practice. We understand that visiting the dentist can be a vulnerable experience, and we are dedicated to earning your confidence with every visit. You can count on us to provide consistent, highquality care you can rely on.
+
+                <p style="color: black;"><b>Community</b></p>
+                <p class="mb-4" style="color: black;text-align: justify;">
+                    We are more than just a clinic; we are a part of the community.Smilecraft is dedicated to giving back, engaging in outreach, and supporting local initiatives that make a difference.        
+
+        </div>
+    </div>
+    <!-- About End -->
+
+   
+
+ <!-- map Start -->
+ <div class="container-fluid py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+        <div class="section-title text-center position-relative pb-3 mb-5 mx-auto" style="max-width: 600px;">
+            <h5 class="fw-bold text-primary text-uppercase">Our Location</h5>
+            <h3 class="mb-0">Welcome to Smilecraft - You Are Our Guest, Not Our Patient</h3>
+        </div>
+        <div class="row g-5">
+            <div class="col-lg-12 col-md-12 wow zoomIn" data-wow-delay="0.3s">
+                <div class="service-item bg-light rounded d-flex flex-column ">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d982.2187102559744!2d76.31458576950725!3d10.027185720000128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080dad054d11e7%3A0x1f88b90eed550205!2sSmile%20Craft%20Dental%20Care%20and%20Implant%20Centre!5e0!3m2!1sen!2sin!4v1732599423402!5m2!1sen!2sin"  height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <!-- map End -->
+
+
+
+<div class="container-fluid text-white" style="background: #061429;">
+    <div class="container text-center">
+        <div class="row justify-content-center">
+            <div class="col-lg-8 col-md-6">
+                <div class="d-flex align-items-center justify-content-center" style="height: 75px;">
+                    <p class="mb-0">&copy; <a class="text-white border-bottom" href="#">Smilecraft</a>. All Rights Reserved. 
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Footer End -->
+
+
+<!-- Back to Top -->
+<a href="https://api.whatsapp.com/send?phone=918606651185" class="wppBtn pulse"></a>
+
+<a href="#" class="btn btn-lg btn-primary btn-lg-square rounded back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+
+<!-- JavaScript Libraries -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="js/script.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+<!-- Template Javascript -->
+<script src="js/main.js">
+   
+</script>
+</body>
+
+</html>
